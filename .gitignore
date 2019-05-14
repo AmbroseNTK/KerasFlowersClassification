@@ -264,12 +264,7 @@ __pycache__/
 
 Image/
 
-*.jpg
-*.png
-*.jpeg
-*.JPG
-*.PNG
-*.JPEG
-*.gif
-*.GIF
-dataset/
+dataset/*
+FetchDataset/dataset/*
+
+!FlowerClassification.UI
