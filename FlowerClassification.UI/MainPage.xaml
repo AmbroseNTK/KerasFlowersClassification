@@ -10,9 +10,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Windows10FallCreatorsUpdate:NavigationView x:Name="nvSample">
+        <Windows10FallCreatorsUpdate:NavigationView x:Name="navMenu">
             <NavigationView.MenuItems>
-                <NavigationViewItem Icon="GoToStart" Content="Introduction" Tag="IntroPage" />
+                <NavigationViewItem Icon="GoToStart" Content="Introduction" Tag="IntroPage" Tapped="IntroductionItem_Tapped" />
                 <NavigationViewItem Icon="Library" Content="Algorithms" Tag="AlgorithmPage" />
                 <NavigationViewItem Icon="Play" Content="Evaluation" Tag="EvaluationPage" />
                 <NavigationViewItem Icon= "Bullets" Content="Result" Tag="ResultPage" />
