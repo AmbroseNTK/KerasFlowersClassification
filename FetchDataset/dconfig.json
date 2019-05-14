@@ -1,0 +1,10 @@
+{
+  "Records": [
+    {
+      "chromedriver": "C:\\chromedriver_win32\\chromedriver.exe",
+      "keywords": "rose flower",
+      "limit": 500
+
+    }
+  ]
+}

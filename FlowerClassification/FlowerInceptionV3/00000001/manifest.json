@@ -1,0 +1,37 @@
+{
+  "dependencies": [],
+  "description": "",
+  "location": "",
+  "name": "FlowerInceptionV3",
+  "params": {
+    "model": {
+      "frameworkVersion": "WinMLTools1.3.0",
+      "graphVersion": 0,
+      "interfaces": [
+        {
+          "inputs": [
+            {
+              "description": "",
+              "internalName": "input_1_0",
+              "name": "input0",
+              "shape": "[1, 256, 256, 3]",
+              "type": "DATA_TYPE_FLOAT"
+            }
+          ],
+          "name": "Evaluate",
+          "outputs": [
+            {
+              "description": "",
+              "internalName": "dense_2_Softmax_01",
+              "name": "output0",
+              "shape": "[1, 5]",
+              "type": "DATA_TYPE_FLOAT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "typeName": "OnnxModel",
+  "version": 1
+}
