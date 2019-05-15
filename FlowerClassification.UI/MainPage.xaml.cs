@@ -25,12 +25,25 @@ namespace FlowerClassification.UI
         public MainPage()
         {
             this.InitializeComponent();
-            
+
         }
 
         private void IntroductionItem_Tapped(object sender, TappedRoutedEventArgs e)
         {
             contentFrame.Navigate(typeof(IntroductionPage));
+        }
+
+        private void AlgorithmsItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(AlgorithmsPage));
+        }
+        private void EvaluationItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(EvaluationPage));
+        }
+        private void ResultItem_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            contentFrame.Navigate(typeof(ResultPage));
         }
     }
 }

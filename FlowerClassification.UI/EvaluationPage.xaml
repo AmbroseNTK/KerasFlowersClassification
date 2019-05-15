@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="FlowerClassification.UI.EvaluationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:FlowerClassification.UI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Border BorderBrush="Gray" BorderThickness="5" Margin="301,43,506,344" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+            <Image  Margin="568,10,310,0" VerticalAlignment="Top" Height="672" HorizontalAlignment="Stretch" />
+        </Border>
+        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Left" Margin="301,702,0,0" VerticalAlignment="Top" Width="218" />
+        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Left" Margin="750,702,0,0" VerticalAlignment="Top" Width="244" />
+        <StackPanel>
+            <TextBlock Text="Algorithms:" Style="{ThemeResource BaseTextBlockStyle}"/>
+            <RadioButton x:Name="Option1RadioButton" Content="A" />
+            <RadioButton x:Name="Option2RadioButton" Content="B" />
+            <RadioButton x:Name="Option3RadioButton" Content="C" />
+        </StackPanel>
+
+    </Grid>
+</Page>

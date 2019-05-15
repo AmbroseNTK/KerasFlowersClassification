@@ -13,9 +13,9 @@
         <Windows10FallCreatorsUpdate:NavigationView x:Name="navMenu">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="GoToStart" Content="Introduction" Tag="IntroPage" Tapped="IntroductionItem_Tapped" />
-                <NavigationViewItem Icon="Library" Content="Algorithms" Tag="AlgorithmPage" />
-                <NavigationViewItem Icon="Play" Content="Evaluation" Tag="EvaluationPage" />
-                <NavigationViewItem Icon= "Bullets" Content="Result" Tag="ResultPage" />
+                <NavigationViewItem Icon="Library" Content="Algorithms" Tag="AlgorithmPage" Tapped="AlgorithmsItem_Tapped" />
+                <NavigationViewItem Icon="Play" Content="Evaluation" Tag="EvaluationPage" Tapped="EvaluationItem_Tapped" />
+                <NavigationViewItem Icon= "Bullets" Content="Result" Tag="ResultPage" Tapped="ResultItem_Tapped"/>
             </NavigationView.MenuItems>
             <Frame x:Name="contentFrame"/>
         </Windows10FallCreatorsUpdate:NavigationView>
