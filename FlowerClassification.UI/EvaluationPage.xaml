@@ -8,18 +8,26 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <Border BorderBrush="Gray" BorderThickness="5" Margin="301,43,506,344" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
-            <Image  Margin="568,10,310,0" VerticalAlignment="Top" Height="672" HorizontalAlignment="Stretch" />
-        </Border>
-        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Left" Margin="301,702,0,0" VerticalAlignment="Top" Width="218" />
-        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Left" Margin="750,702,0,0" VerticalAlignment="Top" Width="244" />
-        <StackPanel>
-            <TextBlock Text="Algorithms:" Style="{ThemeResource BaseTextBlockStyle}"/>
-            <RadioButton x:Name="Option1RadioButton" Content="A" />
-            <RadioButton x:Name="Option2RadioButton" Content="B" />
-            <RadioButton x:Name="Option3RadioButton" Content="C" />
-        </StackPanel>
+    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Margin="24">
+                <TextBlock Text="Algorithms:" FontSize="24" />
+                <RadioButton Content="A" />
+                <RadioButton Content="B" />
+                <RadioButton Content="C" />
+            </StackPanel>
+            <StackPanel>
+                <Border BorderBrush="Gray" BorderThickness="10" Height="500" Width="500" Margin="120,100,240,240">
+                    <Image >
+                    </Image>
+                </Border>
+                
+                <Button Content="Choose Picture" FontSize="24" Margin="120,-200,240,0" Width="200" Height="80"/>
 
-    </Grid>
+                <Button Content="Run" FontSize="24" Margin="400,-200,240,0" Width="200" Height="80"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </ScrollViewer>
 </Page>

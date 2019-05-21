@@ -10,7 +10,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Windows10FallCreatorsUpdate:NavigationView x:Name="navMenu">
+        <Windows10FallCreatorsUpdate:NavigationView x:Name="navMenu" CompactModeThresholdWidth="0">
             <NavigationView.MenuItems>
                 <NavigationViewItem Icon="GoToStart" Content="Introduction" Tag="IntroPage" Tapped="IntroductionItem_Tapped" />
                 <NavigationViewItem Icon="Library" Content="Algorithms" Tag="AlgorithmPage" Tapped="AlgorithmsItem_Tapped" />
