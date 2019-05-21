@@ -8,13 +8,12 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-        <RichTextBlock SelectionHighlightColor="Green">
-            <Paragraph>RichTextBlock provides a rich text display container that supports
-                <Run FontStyle="Italic" FontWeight="Bold">formatted text</Run> ,
-                <Hyperlink NavigateUri="http://msdn.microsoft.com/en-us/library/windows/apps/windows.ui.xaml.documents.hyperlink.aspx">hyperlinks</Hyperlink> , inline images, and other rich content.
-            </Paragraph>
-            <Paragraph>RichTextBlock also supports a built-in overflow model.</Paragraph>
-        </RichTextBlock>
-    </Grid>
+    <ScrollViewer>
+        <StackPanel>
+            <TextBlock Text="Lorem ipsum dolor sitamet,consectetur adipiscing elit. Sed ac mi ipsum. Phasellus vel malesuada mauris. Donec pharetra, enim sit amet mattis tincidunt, felis nisi semper lectus, vel porta diam nisi in augue. Pellentesque lacus tortor, aliquam et faucibus id, rhoncus ut justo. Sed id lectus odio, eget pulvinar diam. Suspendisse eleifend ornare libero, in luctus purus aliquet non. Sed interdum, sem vitae rutrum rhoncus, felis ligula ultrices sem, in eleifend eros ante id neque.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mi ipsum. Phasellus vel malesuada mauris. Donec pharetra, enim sit amet mattis tincidunt, felis nisi semper lectus, vel porta diam nisi in augue. Pellentesque
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                       Style="{StaticResource TitleTextBlockStyle}" />
+        </StackPanel>
+    </ScrollViewer>
 </Page>
